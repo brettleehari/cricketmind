@@ -1,0 +1,602 @@
+[
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What constitutes a No Ball according to cricket laws?",
+    "output": "1. According to Law 21, a No Ball is called for several infractions. 2. Front-foot rule: bowler's front foot lands beyond the popping crease with no part behind the line. 3. Back-foot rule: bowler's back foot lands outside the return crease. 4. Throwing: illegally straightening the bowling arm beyond 15 degrees. 5. Beamer: delivering a full toss above waist height of the batter standing upright. 6. Each No Ball results in one penalty run plus any runs scored off the delivery."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What is the penalty for bowling a No Ball?",
+    "output": "1. Under Law 21, every No Ball incurs a penalty of one run added to the batting side's score. 2. This penalty run is awarded in addition to any runs the batters score off the delivery itself. 3. In limited-overs cricket, the next delivery becomes a Free Hit where the batter cannot be dismissed except by run out, obstructing the field, or hitting the ball twice. 4. The No Ball does not count toward the six legitimate deliveries in an over, requiring an extra ball."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "When does a Free Hit apply in cricket?",
+    "output": "1. According to Law 21, a Free Hit applies in limited-overs cricket following any No Ball delivery. 2. This includes ALL types of No Balls: front-foot infractions, back-foot violations, throwing, and beamers. 3. During a Free Hit, the batter cannot be dismissed by the bowler except through run out, obstructing the field, or hitting the ball twice. 4. The Free Hit rule was updated in ICC playing conditions to apply to all No Ball types, not just front-foot violations."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What happens if a batter is bowled off a No Ball?",
+    "output": "1. Under Law 21, if a batter is bowled off a No Ball, the dismissal does not stand. 2. The batter continues batting as normal. 3. The batting side receives one penalty run for the No Ball plus any runs scored off the delivery. 4. In limited-overs formats, the next delivery becomes a Free Hit. 5. The bowler must bowl an additional delivery since the No Ball doesn't count toward the six legitimate balls in the over."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What is considered throwing according to cricket laws?",
+    "output": "1. According to Law 21, throwing occurs when a bowler illegally straightens their bowling arm beyond 15 degrees during delivery. 2. This is determined through biomechanical analysis and umpire observation. 3. When throwing is detected, it results in a No Ball call. 4. The batting team receives one penalty run plus any runs scored off the delivery. 5. In limited-overs cricket, the following delivery becomes a Free Hit, and an extra ball must be bowled in the over."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A bowler's front foot lands on the popping crease line. The batsman hits the ball for four runs. What is the total score added?",
+    "output": "1. Under Law 21, this is a No Ball because no part of the bowler's front foot is behind the popping crease line. 2. The batting team receives 1 penalty run for the No Ball infringement. 3. They also receive the 4 runs scored from the boundary hit. 4. Total runs added to the score: 5 runs (1 + 4). 5. In limited-overs cricket, the next delivery would be a Free Hit, and the bowler must deliver an extra ball to complete the over."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "In a T20 match, a bowler delivers a beamer and the batsman is caught. What happens next?",
+    "output": "1. According to Law 21, a full toss above waist height (beamer) is called a No Ball. 2. The catch dismissal does not stand as batters cannot be caught off No Ball deliveries. 3. The batting team receives 1 penalty run for the No Ball. 4. The batsman continues batting and the next delivery is a Free Hit since this is limited-overs cricket. 5. The bowler must deliver an additional ball as No Balls don't count toward the six legitimate deliveries in an over."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A bowler's back foot touches the return crease line during delivery. The batsman takes a single. What's the outcome?",
+    "output": "1. Under Law 21, if the bowler's back foot lands outside the return crease, it's a No Ball. 2. Touching the line is considered outside, so this is a No Ball call. 3. The batting team receives 1 penalty run plus the 1 run scored, totaling 2 runs. 4. In limited-overs formats, the next delivery becomes a Free Hit. 5. An extra ball must be bowled since No Balls don't count as legitimate deliveries in the over."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "During a Free Hit delivery following a No Ball, can a batsman be stumped?",
+    "output": "1. According to Law 21, during a Free Hit in limited-overs cricket, batters cannot be dismissed by the bowler except through specific methods. 2. Stumping is a dismissal by the bowler, so it is not permitted during a Free Hit. 3. The only allowed dismissals during Free Hit are: run out, obstructing the field, and hitting the ball twice. 4. If a stumping attempt occurs, the batter remains not out. 5. Any runs scored during the attempted stumping are added to the team's total."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "In an ODI, a bowler delivers consecutive No Balls. How many Free Hits follow?",
+    "output": "1. Under Law 21, each No Ball in limited-overs cricket results in a Free Hit on the following delivery. 2. If the first Free Hit delivery is also a No Ball, another Free Hit follows. 3. This process continues until a legitimate delivery is bowled. 4. Each No Ball adds 1 penalty run to the batting team's score plus any runs scored off each delivery. 5. Multiple extra balls must be bowled since No Balls don't count toward the over's six legitimate deliveries."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Many believe only front-foot No Balls result in Free Hits. Is this correct?",
+    "output": "1. This is a common misconception. According to Law 21, ALL No Balls in limited-overs cricket result in Free Hits. 2. This includes front-foot violations, back-foot infractions, throwing, and beamers. 3. The ICC playing conditions were updated to clarify that Free Hits apply to every type of No Ball, not just front-foot violations. 4. Each No Ball, regardless of type, awards 1 penalty run plus any runs scored. 5. The comprehensive Free Hit rule ensures consistent penalties across all No Ball infractions."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Some think batters can be caught off No Balls in Test cricket. Is this true?",
+    "output": "1. This is incorrect. Under Law 21, batters cannot be caught off No Ball deliveries in any format of cricket. 2. The rule applies equally to Test cricket, ODIs, and T20s regarding dismissals off No Balls. 3. If a batter is caught off a No Ball, the dismissal does not stand regardless of the format. 4. The difference is that Test cricket doesn't have Free Hit deliveries following No Balls. 5. The batter continues batting, receives penalty runs, and the bowler must deliver an extra ball to complete the over."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Is it true that Free Hits only apply when the same bowler continues bowling?",
+    "output": "1. This is a misconception. According to Law 21, Free Hits in limited-overs cricket apply regardless of bowler changes. 2. If a No Ball is bowled and the captain changes the bowler, the new bowler must still deliver the Free Hit. 3. The Free Hit is tied to the delivery sequence, not the specific bowler. 4. The batting team retains the advantage of the Free Hit even with a bowling change. 5. This ensures teams cannot avoid Free Hit consequences by making tactical bowling substitutions after No Balls."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Do No Balls count toward the bowler's over total?",
+    "output": "1. This is a common error. Under Law 21, No Balls do NOT count as one of the six legitimate deliveries in an over. 2. The bowler must deliver additional balls to replace each No Ball bowled. 3. An over is only complete when six legitimate (legal) deliveries have been bowled. 4. This means overs with No Balls will have more than six total deliveries. 5. The misconception arises because penalty runs are awarded, but the delivery itself doesn't advance the over count."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Some believe penalty runs from No Balls are credited to the batsman's individual score. Is this accurate?",
+    "output": "1. This is incorrect. According to Law 21, the penalty run from a No Ball is added to the team's total score, not the individual batter's runs. 2. Only runs physically scored by running between wickets or boundaries hit by the batter count toward their personal tally. 3. The No Ball penalty appears in the team's extras column in the scorebook. 4. Any runs the batter scores off the No Ball delivery (boundaries, singles, etc.) do count toward their individual score. 5. This distinction is important for individual batting records and statistics."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What happens if a bowler delivers a beamer that passes below waist height after bouncing?",
+    "output": "1. According to Law 21, a beamer is defined as a full toss above waist height of the batter standing upright. 2. If the ball bounces before reaching the batter, it is not considered a full toss regardless of its subsequent height. 3. The waist height is measured when the ball would reach the batter, not after bouncing. 4. Therefore, a ball that bounces and then rises above waist height is not a No Ball under the beamer rule. 5. However, it could still be a No Ball for other infractions like front-foot or back-foot violations."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "If a bowler's front foot is partially behind the popping crease but mostly over it, is it a No Ball?",
+    "output": "1. Under Law 21, a No Ball is called if no part of the bowler's front foot is behind the popping crease line. 2. If any portion of the front foot is behind the line, even partially, it is a legitimate delivery. 3. The key requirement is that some part of the foot must be behind the crease line at the moment of delivery. 4. The majority position of the foot doesn't matter - only that some part remains behind the line. 5. This is often a marginal call requiring careful observation by the umpire at the bowler's end."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Can a bowler be called for a No Ball if their back foot lands completely inside but touching the return crease?",
+    "output": "1. According to Law 21, a No Ball is called if the bowler's back foot lands outside the return crease. 2. The return crease extends infinitely behind the stumps, so 'touching' the return crease line means the foot is on the boundary. 3. In cricket law interpretation, touching the line is generally considered 'on' or 'outside' the defined area. 4. If the back foot touches the return crease line, it would likely be called a No Ball as it's not entirely within the permitted area. 5. This is an edge case requiring umpire judgment based on the exact positioning."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What happens if a No Ball is called but the batter is run out attempting a second run?",
+    "output": "1. Under Law 21, during a No Ball, batters can still be dismissed by run out, which is not a dismissal by the bowler. 2. The run out dismissal stands even though it was a No Ball delivery. 3. The batting team still receives the 1 penalty run for the No Ball plus any completed runs before the dismissal. 4. In limited-overs cricket, since a dismissal occurred, there would be no Free Hit on the next delivery. 5. A new batter comes to the crease, and the bowler must still deliver an extra ball since No Balls don't count toward the over."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "If the last ball of an over in limited-overs cricket is a No Ball, does the Free Hit carry to the next bowler's over?",
+    "output": "1. According to Law 21, when a No Ball occurs in limited-overs cricket, the next delivery must be a Free Hit. 2. If the No Ball is the intended last ball of an over, an additional ball must be bowled since No Balls don't count toward the six legitimate deliveries. 3. This extra ball would be the Free Hit delivery, bowled by the same bowler to complete the over. 4. The Free Hit does not carry over to a new bowler's over - it must be delivered immediately by the bowler who bowled the No Ball. 5. Only after this Free Hit delivery is the over considered complete, and bowling can switch to the other end."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What happens to the score when a wide ball is bowled?",
+    "output": "1. According to Law 22, one run is automatically added to the batting side's score as a penalty for every Wide ball bowled. 2. This penalty run is awarded in addition to any runs that the batters may complete or any boundary runs scored from the delivery. 3. The Wide does not count as a legitimate delivery, so an extra ball must be bowled to complete the over."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "How does the Wide ball rule differ between Test cricket and T20 cricket?",
+    "output": "1. Law 22 establishes that Wide ball guidelines are stricter in T20 cricket compared to Test cricket. 2. In T20s, any ball down the leg side or significantly outside off stump is typically called Wide by the umpire. 3. In Test cricket, umpires have more discretion and call Wides less frequently, especially for deliveries outside off stump if the batter has moved toward the ball."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "When is a ball considered a Wide according to the Laws of Cricket?",
+    "output": "1. Under Law 22, a Wide is called if the ball passes so far from the batter that they cannot hit it by means of a normal cricket stroke. 2. The key criterion is whether the ball is within reach for the batter to play a conventional shot. 3. However, a Wide cannot be called if the batter moves toward the ball and brings it within their reach through their movement."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What takes precedence when a delivery is both a No Ball and a Wide?",
+    "output": "1. According to Law 22, No Ball takes precedence over Wide in all circumstances. 2. If a delivery violates both the No Ball and Wide regulations simultaneously, the umpire will call it as No Ball only. 3. This means the batting side receives the No Ball penalty and rules, rather than the Wide penalty, even though the ball may have been too far from the batter to hit."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "How many runs are scored if a Wide ball goes to the boundary?",
+    "output": "1. Law 22 states that if a Wide ball reaches the boundary, a total of 5 runs are scored. 2. This comprises 1 run as the Wide penalty plus 4 additional runs for the boundary. 3. The batting side benefits from both the automatic Wide penalty and the boundary runs, making it costly for the bowling team when a Wide reaches the rope."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The bowler delivers a ball well outside off stump. The batter doesn't move and cannot reach it. The umpire calls Wide. What happens next?",
+    "output": "1. Under Law 22, since the ball passed so far from the batter that they could not hit it with a normal cricket stroke, the Wide call is correct. 2. One run is immediately added to the batting team's score as a penalty. 3. The delivery does not count toward the over, so the bowler must bowl an additional ball to complete the over. 4. The batting team benefits from the extra run and the additional delivery opportunity."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "In a T20 match, the bowler delivers down the leg side. The batter attempts to flick but misses as the ball is too far away. What should the umpire call?",
+    "output": "1. According to Law 22, in T20 cricket the Wide ball guidelines are stricter, and any ball down the leg side is typically called Wide. 2. Since the batter could not reach the ball despite attempting a shot, this confirms it was beyond the reach of a normal cricket stroke. 3. The umpire should call Wide, award one penalty run to the batting side, and require an extra ball to be bowled."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A bowler delivers wide outside off stump. The ball beats the keeper and races to the boundary for four byes. How many runs are added to the total?",
+    "output": "1. Law 22 specifies that when a Wide ball reaches the boundary, the batting side scores the 1-run Wide penalty plus 4 boundary runs. 2. The total is 5 runs added to the batting team's score, regardless of whether the ball was touched by the wicket-keeper. 3. An additional ball must be bowled as the Wide does not count as a legitimate delivery toward completing the over."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The batter charges down the pitch toward a delivery that would normally be called Wide. The ball is now within reach. Should it be called Wide?",
+    "output": "1. Law 22 clearly states that a Wide cannot be called if the batter moves toward the ball and brings it within reach. 2. By advancing down the pitch, the batter has changed the equation and made the ball accessible for a normal cricket stroke. 3. The umpire should not call Wide in this situation, and the delivery counts as a legitimate ball toward the over, regardless of whether the batter makes contact."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A delivery is bowled above head height (No Ball) and also passes wide of off stump beyond the batter's reach. What should the umpire call?",
+    "output": "1. According to Law 22, No Ball takes precedence when a delivery violates both No Ball and Wide regulations. 2. The umpire must call No Ball only, even though the ball was also too wide for the batter to reach with a normal stroke. 3. The batting side receives No Ball penalties and rules rather than Wide penalties, and the delivery does not count toward completing the over."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A player believes that any ball outside the return crease is automatically a Wide. Is this correct?",
+    "output": "1. This is a common misconception that is incorrect according to Law 22. 2. Law 22 defines a Wide based on whether the ball passes so far from the batter that they cannot hit it by means of a normal cricket stroke, not based on crease markings. 3. The Wide line guidelines vary between formats, and umpires must judge each delivery based on the batter's ability to reach it with conventional shots, considering any movement by the batter."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Someone claims that a Wide ball still counts toward the over and only the runs are penalty. Is this understanding correct?",
+    "output": "1. This is incorrect according to Law 22, which clearly states that a Wide does not count as a legitimate delivery. 2. When a Wide is called, an extra ball must be bowled to complete the over, meaning overs can exceed six deliveries. 3. The misconception likely arises because the penalty run is awarded, but the key point is that Wide deliveries do not advance the over count, unlike legitimate deliveries."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A coach tells players that Wide rules are exactly the same in all formats of cricket. Is this accurate?",
+    "output": "1. This is incorrect based on Law 22, which establishes different applications across formats. 2. The law specifically states that Wide ball guidelines are stricter in T20 cricket than in Test matches. 3. In T20s, balls down the leg side or significantly outside off stump are typically called Wide, while Test cricket gives umpires more discretion and Wides are called less frequently, particularly for off-side deliveries when batters have moved."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A player thinks that if both Wide and No Ball apply to the same delivery, both penalties are awarded. Is this correct?",
+    "output": "1. This is a misconception that contradicts Law 22, which explicitly states that No Ball takes precedence over Wide. 2. When a delivery violates both regulations, only the No Ball is called and only No Ball penalties apply. 3. The batting side cannot receive both sets of penalties simultaneously - they get the No Ball treatment exclusively, even though the ball may have been impossible to reach with a normal stroke."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Some believe that any movement by the batter automatically prevents a Wide call. Is this interpretation accurate?",
+    "output": "1. This interpretation is too broad and misrepresents Law 22. 2. The law specifically states that a Wide cannot be called if the batter moves toward the ball and brings it within reach, not for any movement whatsoever. 3. Movement away from the ball, sideways movement that doesn't affect reach, or movement that still leaves the ball beyond normal stroke range would not prevent a Wide call - the key factor is whether the movement brings the ball within reachable distance."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A left-handed batter is facing. The bowler delivers outside the right-hander's leg stump line, which is now the off stump line for the left-hander. In a Test match, this is marginally wide but the batter shuffled across slightly. Should this be called Wide?",
+    "output": "1. According to Law 22, this situation requires careful assessment of whether the ball is beyond reach of a normal cricket stroke for the left-handed batter. 2. Since this is Test cricket, the umpire has more discretion and Wides are called less frequently, especially when the batter has moved. 3. The slight shuffle by the batter toward the ball likely brings it within reach of a normal stroke, which would prevent a Wide call under Law 22. 4. The umpire should not call Wide as the batter's movement has made the delivery accessible."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The ball is delivered wide of off stump and simultaneously bounces twice before reaching the keeper. Both Wide and No Ball conditions appear to be met. What should be called?",
+    "output": "1. Law 22 establishes that No Ball takes precedence when both Wide and No Ball conditions are present in a single delivery. 2. The double-bounce creates a No Ball situation, which automatically overrides the Wide call despite the ball being beyond the batter's reach. 3. The umpire must signal No Ball only, and the batting side receives No Ball penalties rather than Wide penalties. 4. This demonstrates the hierarchy of calls where No Ball supersedes Wide regardless of how obvious the Wide violation might be."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "In a T20 match, the batter attempts a switch-hit shot, changing from right-handed to left-handed stance mid-delivery. The ball passes down what was originally the leg side but is now technically the off side. Should this be called Wide?",
+    "output": "1. This is a complex application of Law 22 involving the batter's deliberate stance change during delivery. 2. The key principle remains whether the ball passes so far from the batter that they cannot hit it with a normal cricket stroke in their adopted position. 3. If the switch-hit attempt brings the ball within reach of the batter's new stance, then no Wide should be called per Law 22's provision about batter movement. 4. However, if even with the switch-hit the ball remains beyond reach of a normal stroke, it should still be called Wide, especially given T20's stricter Wide guidelines."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A delivery is bowled that would normally be Wide, but the batter edges it to the boundary while attempting an extravagant shot. The batter had to reach significantly outside their normal range. Should this have been called Wide?",
+    "output": "1. Under Law 22, the fact that the batter made contact does not automatically prevent a Wide call - the test is whether the ball was reachable by normal cricket stroke. 2. If the batter had to employ an extravagant shot and reach significantly beyond normal range, the delivery should still be considered Wide despite the contact. 3. However, the actual contact complicates the umpire's decision, as it suggests the ball was technically within the batter's reach, albeit requiring exceptional effort. 4. The umpire must judge whether a normal cricket stroke could have reached the ball, not whether the particular shot attempted could reach it."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A Wide delivery deflects off the keeper's pad, then off the batter's pad who was backing up, and rolls to the boundary. The batter also completed one run while the ball was traveling. How many runs should be awarded?",
+    "output": "1. According to Law 22, the base penalty for a Wide is 1 run, plus any additional runs scored from the delivery. 2. The deflections off the keeper's and batter's pads do not change the Wide penalty calculation, as these are incidental contacts. 3. The batter completed 1 run, and the ball reached the boundary for 4 more runs, totaling 5 runs from play. 4. Adding the 1-run Wide penalty, the batting side should be awarded 6 runs total (1 Wide penalty + 1 completed run + 4 boundary runs), and an extra ball must be bowled."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What penalty is awarded if a fielder deliberately uses their cap to field the ball?",
+    "output": "1. Under Law 24, if a fielder deliberately uses anything other than their person to field the ball, a penalty is awarded. 2. Equipment such as caps, helmets, or sunglasses fall under this prohibition. 3. The penalty for this infringement is 5 penalty runs awarded to the batting side. 4. These runs are in addition to any runs already completed by the batsmen or any boundary scored."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What is the key factor that determines whether a penalty is given when equipment contacts the ball?",
+    "output": "1. According to Law 24, the key determining factor is whether the contact was 'deliberately' made by the fielder. 2. If a fielder intentionally uses equipment to stop or redirect the ball, a 5-run penalty is awarded. 3. However, if equipment falls off accidentally and the ball hits it, no penalty is given. 4. The umpire must judge the fielder's intent to determine if the action was deliberate or accidental."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "How many penalty runs are awarded for illegally fielding with equipment?",
+    "output": "1. Law 24 specifies that exactly 5 penalty runs are awarded to the batting side when a fielder deliberately uses equipment to field the ball. 2. These 5 runs are awarded in addition to any runs the batsmen have already completed during the play. 3. The penalty runs are also additional to any boundary (4 or 6 runs) that may have been scored. 4. The total runs credited to the batting side would be the penalty runs plus any other runs legitimately scored."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What happens if the ball hits a helmet placed behind the wicketkeeper?",
+    "output": "1. Under Law 24, if the ball hits a fielding helmet that has been placed on the ground behind the wicketkeeper, 5 penalty runs are awarded to the batting side. 2. This penalty applies regardless of whether the contact was intentional, as the helmet placement is considered part of the fielding arrangement. 3. In updated interpretations of the Laws, the ball becomes dead when it hits the helmet and 5 runs are automatically awarded. 4. This rule exists to prevent fielding teams from gaining unfair advantage through equipment placement."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What types of equipment are covered under the fielding equipment penalty law?",
+    "output": "1. Law 24 covers any equipment or items that are not part of the fielder's person when used to field the ball. 2. Specifically mentioned examples include caps, helmets, and sunglasses. 3. The law applies to any object other than the fielder's body that is deliberately used to stop, catch, or redirect the ball. 4. The principle extends to any equipment a fielder might be wearing or carrying, emphasizing that only the person (body) should be used for fielding."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A fielder's sunglasses fall off while running to field the ball, and the ball hits the sunglasses on the ground. What is the decision?",
+    "output": "1. According to Law 24, the key factor is whether the equipment was deliberately used to field the ball. 2. In this scenario, the sunglasses fell off accidentally while the fielder was running, indicating no deliberate intent. 3. Since the contact between the ball and sunglasses was purely accidental, no penalty is awarded under Law 24. 4. The umpire would allow play to continue normally as there was no deliberate attempt to use equipment for fielding purposes."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A fielder deliberately kicks off his boot to stop a boundary and the ball hits the boot. The batsmen had already run 2 runs. What runs are awarded?",
+    "output": "1. Under Law 24, the fielder has deliberately used equipment (the boot) to field the ball, which constitutes an infringement. 2. The penalty for this deliberate action is 5 runs awarded to the batting side. 3. The batsmen had already completed 2 runs before the illegal fielding occurred. 4. The total runs awarded would be 7 (2 completed runs plus 5 penalty runs), as Law 24 states penalties are in addition to runs already scored."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The ball is heading for a boundary when it hits a fielder's cap that was thrown down earlier near the boundary rope. The ball would have been a certain four. What is awarded?",
+    "output": "1. Law 24 applies as the ball has made contact with fielding equipment (the cap) that was placed on the ground. 2. Even though the cap wasn't thrown deliberately at this ball, its placement contributed to affecting the ball's path. 3. A penalty of 5 runs is awarded to the batting side for the equipment contact. 4. Since the ball would have been a boundary (4 runs) and Law 24 states penalties are additional to boundaries scored, the batting side receives 9 runs total (4 boundary + 5 penalty)."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A wicketkeeper removes his gloves and throws one to stop a ball rolling towards the boundary. What is the decision?",
+    "output": "1. This is a clear violation of Law 24, as the wicketkeeper has deliberately used equipment (the glove) to field the ball. 2. The wicketkeeper's gloves, when removed and thrown, become equipment used for fielding purposes rather than protective gear being worn. 3. Since this was a deliberate action to stop the ball from reaching the boundary, a penalty of 5 runs is awarded to the batting side. 4. Any runs the batsmen may have completed would be in addition to the 5 penalty runs, as Law 24 specifies penalties are additional to other runs scored."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "During a catch attempt, a fielder's helmet falls off and the ball hits both the fielder's hands and the helmet simultaneously. Is this a legal catch?",
+    "output": "1. Under Law 24, we must determine if the helmet was used deliberately to assist in fielding the ball. 2. Since the helmet fell off during the catch attempt and contact was simultaneous with the hands, this appears accidental rather than deliberate. 3. However, if the ball made contact with the equipment (helmet) during the catching process, the catch would not be clean regardless of penalty considerations. 4. While no 5-run penalty applies due to lack of deliberate intent, the catch itself would not be valid as it involved contact with equipment during the taking of the catch."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Many players believe that any contact between the ball and equipment results in a 5-run penalty. Is this correct?",
+    "output": "1. This is a common misconception about Law 24, which is not entirely accurate. 2. Law 24 specifically requires that the equipment be used 'deliberately' by the fielder to field the ball for a penalty to apply. 3. If equipment falls off accidentally and the ball happens to hit it, no penalty is awarded under Law 24. 4. The umpire's judgment of intent is crucial - only deliberate use of equipment to stop, catch, or redirect the ball results in the 5-run penalty."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Some people think that if equipment touches the ball, the batting side gets 5 runs instead of any boundary scored. Is this understanding correct?",
+    "output": "1. This interpretation of Law 24 is incorrect and represents a common misunderstanding of the penalty system. 2. Law 24 clearly states that the 5 penalty runs are awarded 'in addition to' any runs already completed or any boundary scored. 3. If a ball hits equipment and would have been a boundary, the batting side receives both the boundary runs (4 or 6) AND the 5 penalty runs. 4. The penalty is supplementary punishment, not a replacement for legitimately earned runs, making the total potentially 9 or 11 runs depending on the boundary value."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Is it true that only caps and helmets are covered under the equipment penalty law?",
+    "output": "1. This is a misconception about the scope of Law 24, which is much broader than just caps and helmets. 2. Law 24 states that if a fielder uses 'anything other than their person' to field the ball, the penalty applies. 3. While caps, helmets, and sunglasses are specifically mentioned as examples, the law covers any equipment or object that is not part of the fielder's body. 4. This could include boots, gloves (when removed), clothing items, or any other equipment deliberately used to field the ball."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Do some players incorrectly believe that the umpire doesn't need to judge intent for equipment penalties?",
+    "output": "1. Yes, this represents a significant misunderstanding of Law 24's application and requirements. 2. Law 24 explicitly emphasizes that the umpire must judge intent, as the key criterion is whether equipment was used 'deliberately'. 3. Some players mistakenly think any ball-equipment contact automatically triggers the penalty, but umpires must distinguish between deliberate and accidental contact. 4. The umpire's assessment of whether the fielder intentionally used equipment versus accidental contact is fundamental to correctly applying Law 24."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "There's confusion about whether wicketkeeper gloves count as equipment under this law. What's the correct interpretation?",
+    "output": "1. This confusion stems from misunderstanding Law 24's distinction between worn protective equipment and equipment used for fielding. 2. When wicketkeeping gloves are worn normally for their intended protective purpose, they are considered part of the wicketkeeper's person for fielding. 3. However, if a wicketkeeper removes gloves and uses them separately to field the ball (like throwing a glove), this would violate Law 24. 4. The key distinction is whether the equipment is being worn for its intended purpose versus being used as a separate fielding tool."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A fielder's helmet is securely fastened but the ball hits it during a diving attempt to take a catch. Does Law 24 apply?",
+    "output": "1. This scenario involves a fielder wearing equipment for its intended protective purpose during a legitimate fielding attempt. 2. Law 24 focuses on deliberate use of equipment to field the ball, not on equipment being worn for protection during normal play. 3. Since the helmet was securely fastened and the contact occurred during a genuine diving catch attempt, this would not constitute deliberate use of equipment under Law 24. 4. However, the catch itself may not be valid if the ball contacted the helmet during the catching process, but no 5-run penalty would apply as there was no deliberate equipment usage."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What happens if a substitute fielder's personal item (like a watch) that they forgot to remove contacts the ball during play?",
+    "output": "1. Law 24 would apply to this situation as the watch constitutes equipment or an item other than the fielder's person. 2. The critical determination is whether the contact was deliberate - if the substitute fielder intentionally used the watch to field the ball, a 5-run penalty applies. 3. However, if the watch contact was purely accidental (fielder forgot they were wearing it), no penalty would be awarded under Law 24's deliberate use requirement. 4. The umpire must assess the fielder's intent and the circumstances of the contact to determine if the watch was deliberately used for fielding purposes."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A fielder deliberately uses his shirt (pulls it off and throws it) to stop a ball. How does Law 24 apply to clothing items?",
+    "output": "1. Law 24 applies to 'anything other than their person' used to field the ball, which would include clothing when used in this manner. 2. By removing and throwing the shirt to stop the ball, the fielder has deliberately used an item of equipment/clothing for fielding purposes. 3. This constitutes a clear violation of Law 24, resulting in 5 penalty runs being awarded to the batting side. 4. The distinction is that once clothing is removed and used as a tool to field the ball, it becomes equipment under Law 24 rather than worn apparel."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "If multiple pieces of equipment contact the ball in one incident (cap falls, then fielder kicks it with boot), how many penalties apply?",
+    "output": "1. Law 24 addresses the penalty for illegally fielding with equipment, but doesn't specify separate penalties for multiple equipment contacts in a single incident. 2. The standard interpretation would be that this constitutes one infringement of Law 24, regardless of how many pieces of equipment were involved. 3. Therefore, one penalty of 5 runs would be awarded to the batting side, not multiple penalties for each equipment contact. 4. The key principle is that this represents a single act of illegal fielding under Law 24, even though multiple equipment items were involved in the sequence."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A fielder wearing batting pads (as protection) has the ball hit the pads during a fielding attempt. Does this unusual scenario invoke Law 24?",
+    "output": "1. This presents an unusual application of Law 24, as batting pads are not typically worn by fielders and aren't standard fielding equipment. 2. If the pads are being worn genuinely for protection and the contact occurs during a normal fielding attempt, Law 24's deliberate use criterion becomes crucial. 3. The umpire must determine if the fielder deliberately positioned or used the pads to assist in fielding, or if contact was incidental to a legitimate fielding attempt. 4. If the pad contact was deliberate to stop or redirect the ball, Law 24 would apply with a 5-run penalty, but if purely accidental during normal fielding motion, no penalty would be awarded."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What are the three fundamental conditions that must ALL be met for an LBW dismissal under Law 36?",
+    "output": "Under Law 36, all three conditions must be satisfied: 1. The ball must pitch in line with the stumps or on the off side (not outside leg stump). 2. The ball must strike the batter's pad or body in line with the stumps. 3. The ball must be going on to hit the stumps. If any single condition fails, the LBW appeal must be rejected."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Can a batter be given out LBW if the ball pitches outside leg stump?",
+    "output": "Under Law 36, absolutely not. 1. A ball pitching outside leg stump can NEVER result in an LBW dismissal. 2. This is an absolute exception with no override, regardless of other factors. 3. Even if the ball hits the pad in line and would hit the stumps, pitching outside leg automatically makes LBW impossible."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What happens in DRS when ball-tracking shows 'Umpire's Call' for LBW decisions?",
+    "output": "Under Law 36 and DRS protocols: 1. If the original decision was Not Out and tracking shows Umpire's Call, the on-field decision stands as Not Out. 2. If the original decision was Out and tracking shows Umpire's Call, the on-field decision stands as Out. 3. Umpire's Call applies when ball-tracking shows the ball is only marginally hitting the stumps, preserving the original judgment."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What is the exception to the 'in line with stumps' impact requirement for LBW?",
+    "output": "Law 36 provides one key exception: 1. If the batter offers NO shot (makes no genuine attempt to play the ball), they can be out LBW even if struck outside the line of off stump. 2. However, the ball must still pitch in line or on the off side. 3. The ball must still be going on to hit the stumps - conditions 1 and 3 remain mandatory."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Can LBW be given if the ball hits the bat before hitting the pad?",
+    "output": "Under Law 36, no LBW can be given if there's an edge before pad contact. 1. If the ball hits the bat before the pad, LBW cannot be given under any circumstances. 2. The bat contact negates the LBW possibility entirely, regardless of where the ball would have gone. 3. This applies even if all three standard LBW conditions would otherwise be met."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A right-handed batter plays forward defensively. The ball pitches on middle stump, hits the pad in line with middle stump, and would have hit middle and leg stumps. Is this out LBW?",
+    "output": "This is out LBW under Law 36. 1. Ball pitched in line with stumps (middle stump) - condition 1 satisfied. 2. Ball struck pad in line with stumps (middle stump) - condition 2 satisfied. 3. Ball was going on to hit stumps (middle and leg) - condition 3 satisfied. 4. All three mandatory conditions are met, making this a clear LBW dismissal."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The ball pitches on off stump, but hits the batter's pad 6 inches outside off stump while attempting a sweep shot. The ball would have hit leg stump. Is this out?",
+    "output": "This is not out under Law 36. 1. Ball pitched in line with stumps (off stump) - condition 1 satisfied. 2. Ball struck pad outside the line of off stump while batter played a shot - condition 2 failed. 3. Although the ball would hit the stumps, the impact outside off stump while playing a shot violates the spatial filter requirements, preventing LBW."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A left-handed batter pads up to a ball pitching on off stump, making no attempt to play it. The ball hits the pad 4 inches outside off stump and would hit middle stump. What's the decision?",
+    "output": "This is out LBW under Law 36. 1. Ball pitched in line with stumps (off stump) - condition 1 satisfied. 2. Although impact was outside off stump, the batter offered no shot, so the exception applies - condition 2 satisfied. 3. Ball was going on to hit stumps (middle) - condition 3 satisfied. 4. The no-shot exception overrides the normal impact line requirement."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The ball pitches 2 inches outside leg stump, straightens, and hits the pad in line with middle stump before going on to hit off stump. The batter was playing a shot. Is this out?",
+    "output": "This is not out under Law 36. 1. Ball pitched outside leg stump - this automatically fails condition 1. 2. Under Law 36, a ball pitching outside leg stump can NEVER result in LBW dismissal, regardless of other factors. 3. Even though the impact was in line and the ball would hit stumps, the leg-side pitching creates an absolute bar to LBW with no exceptions."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The umpire gives the batter out LBW. On review, DRS shows the ball pitching in line, impact in line, but only 49% of the ball hitting leg stump (Umpire's Call). What happens?",
+    "output": "The batter remains out under Law 36 and DRS protocols. 1. The original decision was Out, established by the umpire's call. 2. Ball-tracking shows Umpire's Call for hitting the stumps (marginal contact). 3. Under DRS, when tracking shows Umpire's Call, the original on-field decision stands. 4. Since the original was Out, the dismissal is confirmed despite marginal ball-tracking evidence."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Many people think you can be out LBW if the ball pitches anywhere as long as it hits the pad in line. Is this correct?",
+    "output": "This is completely incorrect under Law 36. 1. The ball MUST pitch in line with stumps or on the off side - pitching position is absolutely crucial. 2. A ball pitching outside leg stump can NEVER result in LBW, regardless of where it hits the pad or whether it would hit stumps. 3. All three conditions must be met simultaneously, including the correct pitching zone."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Some believe that if a ball is hitting the stumps, LBW should be given regardless of impact point. Why is this wrong?",
+    "output": "This misconception ignores Law 36's spatial filters. 1. Even if the ball would demolish all three stumps, impact outside the off stump line while playing a shot prevents LBW. 2. Law 36 requires ALL three conditions plus adherence to spatial rules. 3. The impact line restriction exists to balance the game between bat and ball, preventing defensive padding outside off stump while protecting batting technique."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Is it true that if you don't offer a shot, you can be out LBW from any impact point?",
+    "output": "This is partially incorrect regarding Law 36. 1. The no-shot exception only applies to impact outside the OFF stump line, not anywhere. 2. You still cannot be out LBW if the ball pitches outside leg stump, even with no shot offered. 3. The ball must still pitch in line or on the off side and be hitting the stumps - the no-shot exception only modifies the impact line requirement for off-side impacts."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Many think that any contact with the bat prevents LBW. Is this always true?",
+    "output": "This is mostly correct but needs clarification under Law 36. 1. If the ball hits the bat BEFORE the pad (edge before pad), then LBW cannot be given under any circumstances. 2. However, simultaneous bat-pad contact or pad-first contact can still result in LBW if other conditions are met. 3. The key is the sequence - bat-first contact negates LBW entirely, while pad-first or simultaneous contact preserves LBW possibility."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Some believe DRS always overrules the umpire when ball-tracking is available. Is this correct for LBW decisions?",
+    "output": "This is incorrect regarding Law 36 and DRS protocols. 1. DRS includes 'Umpire's Call' zones where the original decision stands regardless of ball-tracking. 2. When ball-tracking shows marginal contact with stumps, the on-field umpire's original judgment is preserved. 3. DRS only overturns decisions when ball-tracking shows clear errors, not marginal calls, maintaining respect for human judgment in borderline situations."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The ball pitches exactly on the line between leg stump and middle stump. Is this considered pitching 'in line' for LBW purposes under Law 36?",
+    "output": "Yes, this satisfies Law 36's pitching requirement. 1. The ball must pitch in line with stumps OR on the off side - this includes the exact boundary lines. 2. Pitching on the line between leg and middle stumps counts as 'in line with stumps' since it's hitting the stump line. 3. Only pitching completely outside (beyond) the leg stump creates the absolute bar to LBW - boundary line contact satisfies condition 1."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A batter attempts a reverse sweep but gets struck on the back leg while reversed. The ball pitches on off stump, hits back leg in line with stumps, and would hit leg stump. How does Law 36 apply?",
+    "output": "This is out LBW under Law 36. 1. Ball pitched in line with stumps (off stump) - condition 1 satisfied. 2. Impact was in line with stumps regardless of the batter's reversed position - condition 2 satisfied. 3. Ball would hit stumps (leg stump) - condition 3 satisfied. 4. The reverse sweep constitutes playing a shot, so normal impact line rules apply, and all conditions are met."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The ball deflects off the batter's glove (while holding the bat) and then hits the pad in line before going to hit the stumps. Can this be LBW?",
+    "output": "This cannot be LBW under Law 36. 1. The glove, when in contact with the bat handle, is considered part of the bat according to cricket laws. 2. This creates a 'bat before pad' scenario where the ball contacted the 'bat' (glove) first, then the pad. 3. Law 36 specifically states that edge before pad prevents LBW dismissal, and glove-first contact falls under this principle, negating any LBW possibility."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A batter is struck on the pad while backing away from the stumps. All LBW conditions appear met, but the batter was 2 feet outside the crease when struck. Does this affect the LBW decision?",
+    "output": "The batter's position outside the crease doesn't prevent LBW under Law 36. 1. Law 36 focuses on pitching point, impact line, and ball trajectory to stumps, not the batter's crease position. 2. Ball-tracking technology accounts for the ball's path from impact point to stumps regardless of where the batter stands. 3. If all three conditions are met (pitch, impact, hitting), LBW applies whether the batter is in or out of the crease."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The ball hits the batter's front pad, then back pad, then would hit the stumps. The front pad impact was outside off stump while playing a shot, but the back pad impact was in line. Which impact point matters for LBW?",
+    "output": "Law 36 considers the first point of contact for LBW decisions. 1. The first impact on the front pad outside off stump while playing a shot violates condition 2 of Law 36. 2. Subsequent contact with the back pad cannot remedy the initial violation of the impact line requirement. 3. Since the first contact failed to meet Law 36's spatial requirements while playing a shot, LBW cannot be given regardless of later pad contacts."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What are the basic conditions for a batter to be run out?",
+    "output": "1. Under Law 38, a batter is run out when they are out of their ground (beyond the popping crease) while the ball is in play. 2. Their wicket must be fairly put down by the fielding side during this time. 3. The batter must fail to ground some part of their body or bat behind the popping crease line - being ON the line counts as OUT. 4. This dismissal can occur whether or not a run is being attempted."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Can a batter be run out on a No Ball or Wide delivery?",
+    "output": "1. Yes, according to Law 38, run out is one of the few dismissals that remains valid on No Ball and Wide deliveries. 2. Unlike most other forms of dismissal (like bowled, LBW, or caught), run out does not depend on the legality of the delivery. 3. This is because run out relates to the batter's positioning and the fielding side's actions, not the bowler's delivery. 4. The run out dismissal takes precedence over the illegal delivery call."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What happens if both batters are at the same end when the wicket is broken?",
+    "output": "1. Under Law 38, when both batters are out of their ground at the same end, the batter who is NEARER to that end is the one who is run out. 2. This means the batter who has NOT completed the run to that end is dismissed. 3. The other batter, who was originally running to that end and reached it first, remains not out. 4. This rule prevents confusion and ensures only one batter is dismissed in such situations."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Is 'Mankading' or running out the non-striker still considered unsportsmanlike?",
+    "output": "1. No, since 2022, running out the non-striker (previously called 'Mankading') is completely legitimate under Law 38.3. 2. It is now officially classified as a standard form of run out when the non-striker leaves their crease before the bowler releases the ball. 3. The law change removed any stigma, making it a tactical option rather than unsportsmanlike conduct. 4. This brings clarity and removes the subjective judgment about 'spirit of cricket' from this dismissal method."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Does a batter need to be attempting a run to be run out?",
+    "output": "1. No, under Law 38, a batter can be run out even if no run is being attempted. 2. If the batter is out of their crease for any reason (backing up, wandering, losing balance) and the wicket is broken, they are still run out. 3. The law focuses on the batter's position relative to the popping crease, not their intent or actions. 4. This includes situations like backing up too far, slipping, or casual movement outside the crease."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The batters attempt a quick single. The striker reaches the non-striker's end safely, but the non-striker is still running when the wicket-keeper breaks the stumps at the striker's end with the ball. What's the decision?",
+    "output": "1. Under Law 38, the non-striker is run out because they failed to reach the striker's end before the wicket was broken. 2. The fact that their partner (original striker) safely reached the other end is irrelevant to this dismissal. 3. Each batter must complete their individual run to be safe - one batter's success doesn't protect the other. 4. The non-striker was out of their ground when the wicket was fairly put down, satisfying the run out conditions."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A batter hits the ball and starts running. Midway through the first run, both batters are at the striker's end when the fielder breaks the stumps there. Who is out?",
+    "output": "1. Under Law 38, the original non-striker is run out because they are nearer to the striker's end, having not completed their run to that end. 2. Both batters are out of their ground at the same end, so the law specifies the batter who has NOT completed the run is dismissed. 3. The original striker, who started from that end and was returning, is considered to have completed the run to that end. 4. This rule ensures logical and consistent decisions in such scenarios."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "On a Wide ball, the wicket-keeper misses the ball and it goes to the boundary. While running, one batter is run out by the throw. Is this dismissal valid?",
+    "output": "1. Yes, under Law 38, the run out dismissal is completely valid even on a Wide ball. 2. Run out is one of the few dismissals that remain legitimate regardless of whether the delivery is legal or not. 3. The Wide will still be called and added to the bowling team's extras, but the dismissal stands. 4. The batting team receives the penalty runs from the Wide but loses a wicket, making this a mixed outcome from the illegal delivery."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "The bowler is in their delivery stride when they notice the non-striker backing up. They stop and break the stumps. The non-striker's bat is grounded exactly on the popping crease line. What's the decision?",
+    "output": "1. Under Law 38.3, this is a legitimate run out attempt as the bowler can dismiss the non-striker who leaves their crease early. 2. According to Law 38, being ON the popping crease line counts as OUT - the batter must be behind the line to be safe. 3. Since the non-striker's bat is exactly on the line, they are run out. 4. The 2022 law changes make this a standard dismissal without any unsportsmanlike conduct implications."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A batter completes a run safely but then walks out of their crease to pat down the pitch. The wicket-keeper quickly breaks the stumps. Is the batter run out?",
+    "output": "1. Yes, under Law 38, the batter is run out because they were out of their ground when the wicket was broken, regardless of their reason for leaving the crease. 2. The law doesn't require an attempted run - any time a batter is beyond the popping crease while the ball is in play, they're vulnerable. 3. Casual actions like pitch maintenance don't provide protection from run out. 4. The batter must remain alert and within their ground until the ball becomes dead."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Many people think you cannot be run out on a No Ball. Is this correct?",
+    "output": "1. This is completely incorrect. Under Law 38, run out is specifically one of the dismissals that remains valid on a No Ball delivery. 2. The misconception likely arises because most other dismissals (bowled, LBW, caught, stumped) are not valid on No Balls. 3. Run out is different because it depends on the batter's positioning and fielding actions, not the legality of the delivery itself. 4. Both the No Ball penalty and the run out dismissal are applied - the batting team gets the extra but loses a wicket."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Some believe that 'Mankading' was banned or is still unsportsmanlike. What's the current status?",
+    "output": "1. This belief is outdated. Since 2022, Law 38.3 explicitly recognizes running out the non-striker as a legitimate form of dismissal. 2. The term 'Mankading' itself is being phased out in favor of 'running out the non-striker' to remove historical stigma. 3. There is no longer any provision in the Laws about this being against the 'spirit of cricket' or unsportsmanlike. 4. It's now treated as a standard tactical option available to bowlers, similar to any other run out opportunity."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A common belief is that if your bat is grounded on the popping crease line, you are safe. Is this true?",
+    "output": "1. This is false. Under Law 38, being ON the popping crease line counts as OUT - the batter must be behind the line to be safe. 2. This misconception is dangerous for batters who think touching the line provides safety. 3. 'Behind the line' means the bat or body part must have crossed completely over the line toward the stumps. 4. The line itself belongs to the area beyond the crease, so contact with the line offers no protection from run out dismissal."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Is it true that you must be attempting a run to be run out?",
+    "output": "1. This is false. Law 38 clearly states that run out can occur even when no run is attempted and the wicket is broken with the batter out of their crease. 2. This misconception could lead to careless behavior like wandering outside the crease for pitch maintenance or casual movement. 3. The law focuses on position (being out of ground) and action (wicket fairly put down), not intent or run attempts. 4. Batters remain vulnerable to run out whenever they're beyond the popping crease while the ball is in play, regardless of their purpose."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accuracy, citing relevant Law numbers and reasoning step by step.",
+    "input": "Some think that both batters can be run out if both are out of their ground. Is this possible?",
+    "output": "1. No, this is impossible under Law 38. Only one batter can be dismissed on any single delivery or play. 2. When both batters are out of their ground at the same end, the law specifically identifies which one is out - the one NEARER to that end. 3. The misconception ignores the clear hierarchy established in the law for such situations. 4. Cricket's fundamental principle allows only one dismissal per ball, and Law 38 provides the mechanism to determine which batter is dismissed when both are vulnerable."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What happens if a batter's bat is in the air but their body is behind the crease when the stumps are broken?",
+    "output": "1. Under Law 38, the batter is run out because they must ground 'some part of their body or bat' behind the popping crease to be safe. 2. Having the bat in the air means it's not grounded, and body position alone behind the crease is insufficient if no part is actually grounded. 3. The law requires active contact with the ground behind the line, not just positioning in the air space. 4. This emphasizes the importance of proper grounding technique when completing runs, as aerial positioning provides no protection."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Can a batter be run out if they're injured and unable to complete a run, even if they're crawling toward the crease?",
+    "output": "1. Yes, under Law 38, injury doesn't provide exemption from run out if the batter is out of their ground when the wicket is broken. 2. The law makes no allowances for physical condition or circumstances - only position relative to the popping crease matters. 3. However, the batter can still be safe if they manage to ground part of their body or bat behind the crease before the wicket is broken, regardless of how they achieve this. 4. This harsh but clear application ensures consistent interpretation regardless of dramatic circumstances."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What if the batter is run out after completing what they thought was the final run of the match?",
+    "output": "1. Under Law 38, the run out dismissal stands regardless of match situation or score requirements. 2. If this dismissal ends the innings before the winning run is completed, the batting team has not achieved their target. 3. The law operates independently of match context - being out of ground when the wicket is broken results in dismissal. 4. This scenario highlights how crucial awareness and completion of runs remain even in apparent victory situations, as premature celebration can cost matches."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "If a batter deliberately kicks the stumps down while out of their crease to prevent a run out, what happens?",
+    "output": "1. Under Law 38, this action wouldn't prevent the run out if a fielder still manages to break the wicket fairly while the batter is out of their ground. 2. However, deliberately kicking the stumps could constitute interference with the game and result in additional penalties under other laws. 3. The run out decision depends on whether the fielding side 'fairly put down' the wicket, and interference might invalidate their attempt. 4. This creates a complex situation where the batter might avoid run out but face more serious consequences for deliberate interference with play."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What if the non-striker is backing up during a Free Hit delivery and the bowler runs them out?",
+    "output": "1. Under Law 38.3, the non-striker can be legitimately run out for backing up early, even during a Free Hit delivery. 2. Like No Balls and Wides, Free Hit restrictions don't apply to run out dismissals - they only prevent certain types of dismissals like bowled or LBW. 3. The Free Hit rule is designed to penalize the bowling team, but it doesn't protect batters from their own positional errors. 4. This represents a rare case where the batting team can lose a wicket during a Free Hit, despite the delivery's supposed protective nature."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What constitutes illegal ball tampering under the Laws of Cricket?",
+    "output": "1. Under Law 42 (Fair and Unfair Play), ball tampering is defined as any unfair attempt to change the ball's condition. 2. Legal methods include polishing on clothing, drying with a towel, or removing mud. 3. Illegal methods include using fingernails to gouge the seam, applying saliva mixed with substances, or using foreign objects like sandpaper or bottle caps. 4. Any deliberate action to alter the ball's aerodynamic properties beyond permitted methods constitutes tampering."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What are the penalties for ball tampering?",
+    "output": "1. Under Law 42, ball tampering results in immediate penalties. 2. The batting side is awarded 5 penalty runs. 3. The tampered ball is replaced with one of similar wear and condition. 4. The bowler responsible is suspended from bowling for the remainder of the innings. 5. Additional sanctions may apply under the ICC Code of Conduct, including match bans and fines beyond the in-match penalty."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What defines intimidatory bowling under cricket law?",
+    "output": "1. Under Law 42, intimidatory bowling involves persistent short-pitched deliveries directed at the batter's body. 2. The key factor is that such bowling becomes dangerous when done persistently. 3. Umpires assess whether the bowling is an unfair attempt to intimidate rather than dismiss the batter. 4. In limited-overs cricket, there are typically restrictions of one or two bouncers per over depending on the format and playing conditions."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What is the progressive penalty system for intimidatory bowling?",
+    "output": "1. Under Law 42, umpires follow a three-step warning system for intimidatory bowling. 2. First offense results in an initial warning to the bowler and captain. 3. Second offense triggers a final warning, making it clear that further infractions will result in removal. 4. Third offense leads to the bowler being removed from bowling for the remainder of the innings. 5. This progressive system allows bowlers to adjust their tactics while protecting batters from dangerous play."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Can a fielder use saliva to shine the ball?",
+    "output": "1. Under Law 42, using saliva alone to polish the ball was traditionally permitted. 2. However, the law specifically prohibits applying 'saliva mixed with substances' to alter the ball's condition. 3. Pure saliva application for polishing purposes has been acceptable historically. 4. Note that recent playing conditions (especially post-COVID) may have additional restrictions on saliva use that supplement Law 42. 5. Any artificial substances mixed with saliva constitute illegal ball tampering."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A fast bowler is seen using his fingernails to scratch the seam of the ball. The umpire notices this happening. What should be the immediate consequences?",
+    "output": "1. Under Law 42, using fingernails to gouge or pick the seam constitutes illegal ball tampering. 2. The umpire should immediately intervene and change the ball to one of similar wear. 3. Five penalty runs must be awarded to the batting side. 4. The bowler responsible is suspended from bowling for the remainder of the innings. 5. The umpire should report the incident, which may lead to additional ICC Code of Conduct charges including potential match bans."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "During a Test match, a bowler consistently bowls short balls at the batsman's head for three consecutive overs. How should the umpire respond?",
+    "output": "1. Under Law 42, this constitutes persistent intimidatory bowling directed at the batter's body. 2. The umpire should have issued a first warning after identifying the dangerous pattern. 3. Continued intimidatory bowling should have triggered a final warning. 4. By the third over of such tactics, the bowler should be removed from bowling for the remainder of the innings. 5. The umpire must prioritize player safety while following the progressive penalty system outlined in Law 42."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A fielder is caught applying lip balm to the ball. The batting captain appeals for ball tampering. What happens next?",
+    "output": "1. Under Law 42, applying foreign substances like lip balm to alter the ball's condition constitutes ball tampering. 2. The umpire should uphold the appeal as lip balm is not among the permitted methods (polishing on clothing, drying with towel, removing mud). 3. Five penalty runs are awarded to the batting side immediately. 4. The ball must be replaced with one of similar wear and condition. 5. The player involved faces bowling suspension for the remainder of the innings, plus potential ICC disciplinary action."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "In a T20 match, a bowler bowls three bouncers in one over. What action should the umpire take?",
+    "output": "1. Under Law 42 and typical T20 playing conditions, there is usually a limit of one or two bouncers per over. 2. Three bouncers in one over exceeds the permitted limit for limited-overs cricket. 3. The umpire should call the excess deliveries as no-balls. 4. If the bowling appears intimidatory in nature, additional warnings under Law 42's intimidatory bowling provisions may apply. 5. The specific bouncer limits depend on the particular playing conditions for that tournament or series."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "A spinner is bowling short balls that bounce twice before reaching the batsman but are aimed at his body. Is this intimidatory bowling?",
+    "output": "1. Under Law 42, intimidatory bowling focuses on deliveries directed at the batter's body that are dangerous. 2. Balls bouncing twice before reaching the batter are typically not dangerous regardless of line. 3. The key criterion is whether the bowling poses a genuine threat to the batter's safety. 4. Short balls that lose pace and bounce twice are generally not considered intimidatory even if aimed at the body. 5. However, if done persistently with clear intent to intimidate rather than dismiss, umpires might still intervene under fair play provisions."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Many people believe that swing bowlers can legally use sweat and dirt to help the ball swing. Is this correct?",
+    "output": "1. This is partially incorrect under Law 42's ball tampering provisions. 2. Sweat application alone is generally permitted as it's similar to natural polishing on clothing. 3. However, Law 42 specifically allows removing mud from the ball, not applying dirt to it. 4. Adding foreign substances including dirt or mud to alter the ball's aerodynamics constitutes illegal tampering. 5. Only polishing with sweat on clothing, drying with towels, and removing existing mud are permitted methods for maintaining the ball's condition."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Some players think that ball tampering only results in a warning for the first offense. Is this understanding correct?",
+    "output": "1. This understanding is completely incorrect regarding Law 42's ball tampering provisions. 2. Ball tampering has immediate and severe penalties with no warning system. 3. First offense results in 5 penalty runs to the batting side, ball replacement, and bowler suspension. 4. There is no progressive penalty system for ball tampering unlike intimidatory bowling. 5. Players may confuse this with intimidatory bowling penalties, which do have a warning system, but ball tampering consequences are immediate and non-negotiable."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Is it true that only bowlers can be penalized for ball tampering?",
+    "output": "1. This is a common misconception about Law 42's ball tampering provisions. 2. Any player, not just bowlers, can be found guilty of ball tampering. 3. Fielders, wicket-keepers, or any team member handling the ball can commit this offense. 4. The penalty of 5 runs and ball replacement applies regardless of which player tampers with the ball. 5. However, the 'bowler suspension' penalty applies to whoever was bowling at the time, even if a different player committed the tampering."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Many believe that short balls are only considered intimidatory if they're aimed at the head. Is this accurate?",
+    "output": "1. This interpretation of Law 42 is too narrow and incorrect. 2. Intimidatory bowling includes short-pitched deliveries directed at the batter's body generally, not just the head. 3. Balls aimed at the ribs, chest, or other body parts can constitute intimidatory bowling. 4. The key factors are persistence and danger to the batter, regardless of specific body target. 5. Umpires assess the overall pattern of bowling and its intent to intimidate rather than focusing solely on head-high deliveries."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Some think that in Test cricket, there are no limits on bouncers per over. Is this correct?",
+    "output": "1. This understanding of Law 42 is partially correct but oversimplified. 2. Test cricket typically has no specific numerical limit on bouncers per over like limited-overs formats. 3. However, Law 42's intimidatory bowling provisions still apply when short balls become persistently dangerous. 4. Even without numerical limits, umpires can intervene if bowling becomes unfairly intimidatory. 5. The absence of bouncer limits doesn't mean unlimited license to bowl dangerously at batters in Test cricket."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What happens if a player accidentally damages the ball while attempting to stop it in the field?",
+    "output": "1. Under Law 42, accidental damage while fielding is not considered ball tampering. 2. Ball tampering requires deliberate intent to alter the ball's condition unfairly. 3. Genuine accidents during normal fielding efforts don't trigger the tampering penalties. 4. However, the umpire may still replace the ball if it becomes unsuitable for play due to damage. 5. The key distinction is intent - Law 42 targets deliberate attempts to gain unfair advantage, not honest fielding mishaps."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "Can a bowler who has been suspended for ball tampering return to bowl in the next innings of the same match?",
+    "output": "1. Yes, under Law 42, the bowling suspension is only for 'the remainder of the innings' in which tampering occurred. 2. The penalty doesn't extend beyond that specific innings. 3. In a multi-innings match, the bowler can resume bowling in subsequent innings. 4. However, additional ICC Code of Conduct sanctions might impose longer suspensions. 5. The Law 42 penalty is specific to the innings, but match referees may impose broader restrictions through separate disciplinary processes."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What if a bowler receives their final warning for intimidatory bowling but then a different bowler from the same team bowls intimidatory deliveries?",
+    "output": "1. Under Law 42, intimidatory bowling warnings are specific to individual bowlers, not teams. 2. The new bowler starts with a clean slate regarding the progressive warning system. 3. However, umpires may be more vigilant about the team's overall bowling tactics. 4. The second bowler would receive their own first warning, then final warning, then removal if they persist. 5. Umpires might consider the team's collective behavior when assessing whether bowling constitutes unfair play under Law 42's broader fair play provisions."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "If ball tampering is discovered several overs after it occurred, can the penalty still be applied?",
+    "output": "1. Under Law 42, umpires can apply ball tampering penalties when the offense is discovered, even if delayed. 2. The 5 penalty runs and ball replacement can be applied retroactively upon discovery. 3. However, practical considerations affect the bowling suspension if the tampering bowler is no longer bowling. 4. Umpires have discretion in applying penalties when tampering is discovered after the fact. 5. The severity and timing of discovery influence how Law 42 penalties are implemented, with match referees potentially involved in complex situations."
+  },
+  {
+    "instruction": "You are CricketMind, an expert cricket analyst and Laws of Cricket specialist. Answer the following question accurately, citing relevant Law numbers and reasoning step by step.",
+    "input": "What constitutes 'similar wear' when replacing a tampered ball under Law 42?",
+    "output": "1. Under Law 42, 'similar wear' means the replacement ball should match the tampered ball's condition as closely as possible. 2. Umpires consider factors like age of the ball, shine levels, seam condition, and overall deterioration. 3. The replacement shouldn't give either side an unfair advantage compared to the tampered ball's state. 4. Match officials may artificially age a newer ball or select from available balls of appropriate condition. 5. The goal is maintaining competitive balance while removing the illegally altered ball from play."
+  }
+]

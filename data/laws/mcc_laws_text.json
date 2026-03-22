@@ -1,0 +1,103 @@
+{
+  "laws": [
+    {
+      "number": 21,
+      "title": "No Ball",
+      "key_clauses": [
+        "A No Ball is called if the bowler's front foot lands beyond the popping crease (no part of the foot behind the line), known as the front-foot rule.",
+        "A No Ball is also called if the bowler's back foot lands outside the return crease.",
+        "A No Ball is called if the bowler throws (rather than bowls) the ball, i.e., illegally straightens the bowling arm beyond 15 degrees.",
+        "A No Ball is called for delivering a full toss above waist height of the batter standing upright (a beamer).",
+        "One run is added to the batting side's score as a penalty for every No Ball, in addition to any runs scored off the delivery.",
+        "In limited-overs cricket, the delivery following a No Ball is a Free Hit — the batter cannot be dismissed by the bowler except by run out, obstructing the field, or hitting the ball twice.",
+        "The Free Hit applies to ALL No Balls in limited-overs formats (not just front-foot No Balls, as updated in ICC playing conditions).",
+        "If the batter is bowled or caught off a No Ball, the dismissal does not stand; the batter continues batting.",
+        "A No Ball does not count as one of the six legitimate deliveries in an over; the bowler must deliver an extra ball."
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Wide Ball",
+      "key_clauses": [
+        "A Wide is called if the ball passes so far from the batter that they cannot hit it by means of a normal cricket stroke.",
+        "One run is added to the batting side's score as a penalty for every Wide, in addition to any runs completed or boundaries scored.",
+        "A Wide does not count as a legitimate delivery; an extra ball must be bowled.",
+        "The Wide ball guideline is stricter in T20 cricket than in Tests: in T20s, any ball down the leg side or significantly outside off stump is typically called Wide.",
+        "In Test cricket, the umpire has more discretion and Wides are called less frequently, especially for deliveries outside off stump if the batter has moved.",
+        "A Wide cannot be called if the batter moves toward the ball and brings it within reach.",
+        "If a Wide goes to the boundary, 5 runs are scored in total: 1 Wide penalty + 4 boundary runs.",
+        "No Ball takes precedence: if a delivery is both a No Ball and a Wide, it is called No Ball only."
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Fielding the Ball (Equipment Penalty)",
+      "key_clauses": [
+        "If a fielder deliberately uses anything other than their person (e.g., cap, helmet, sunglasses) to field the ball, 5 penalty runs are awarded to the batting side.",
+        "The key word is 'deliberately' — if equipment falls off accidentally and the ball hits it, no penalty is given.",
+        "The 5 penalty runs are in addition to any runs already completed or any boundary scored.",
+        "If the ball hits a fielding helmet placed on the ground behind the wicketkeeper, 5 penalty runs are awarded (this was the rule; now under updated Laws the ball is dead and 5 runs are awarded).",
+        "The umpire must judge intent: accidental contact with equipment is not penalized, but deliberate use to stop or redirect the ball is penalized."
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Bye and Leg Bye",
+      "key_clauses": [
+        "A Bye is scored when the ball passes the batter without touching the bat or body and runs are completed by the batters.",
+        "A Leg Bye is scored when the ball strikes the batter's body (not the bat) and runs are completed, PROVIDED the batter was genuinely attempting to play a shot or trying to avoid the ball.",
+        "If the batter made no attempt to play a shot and no attempt to avoid the ball, Leg Byes are NOT awarded and the umpire calls Dead Ball.",
+        "Byes and Leg Byes are recorded as extras and do not count on the batter's individual score.",
+        "If a Leg Bye goes to the boundary, 4 runs are scored as Leg Bye extras (assuming the attempt/avoidance condition is met)."
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Leg Before Wicket (LBW)",
+      "key_clauses": [
+        "For a batter to be given out LBW, three conditions must ALL be met: (1) the ball must pitch in line with the stumps or on the off side, (2) the ball must strike the batter's pad or body in line with the stumps, and (3) the ball must be going on to hit the stumps.",
+        "EXCEPTION to condition 2: if the batter offers NO shot (makes no genuine attempt to play the ball), the batter can be out LBW even if struck outside the line of off stump, provided conditions 1 and 3 are still met.",
+        "A ball pitching outside leg stump can NEVER result in an LBW dismissal — this is an absolute exception with no override.",
+        "In DRS (Decision Review System), 'Umpire's Call' applies when ball-tracking shows the ball is marginally hitting the stumps. If the original decision was Not Out and tracking shows Umpire's Call, the on-field decision stands (Not Out). If the original decision was Out and tracking shows Umpire's Call, the on-field decision stands (Out).",
+        "The ball must not have pitched only on the leg side and the point of impact must not be outside the line of off stump when a shot is played — these are the two key spatial filters.",
+        "Edge before pad: if the ball hits the bat before the pad, LBW cannot be given."
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Obstructing the Field",
+      "key_clauses": [
+        "A batter is out Obstructing the Field if they wilfully obstruct or distract the fielding side by word or action.",
+        "This includes deliberately running into a fielder attempting to field the ball or deliberately blocking a throw at the stumps.",
+        "A batter may legally defend their wicket with the bat from a throw, but ONLY if they are within their crease and protecting their stumps — not if they are running between wickets.",
+        "If a batter hits the ball a second time (other than to guard their wicket), they can be given out under Obstructing the Field (the old 'Hit the Ball Twice' Law was merged into Law 37).",
+        "The obstruction must be WILFUL — accidental collisions are not penalized."
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Run Out",
+      "key_clauses": [
+        "A batter is run out if at any time while the ball is in play, they are out of their ground (beyond the popping crease) and their wicket is fairly put down by the fielding side.",
+        "If both batters are out of their ground at the same end, the batter NEARER to that end (i.e., the one who has not completed the run) is the one who is out.",
+        "A run out can occur off a No Ball or a Wide — it is one of the few dismissals valid on these deliveries.",
+        "Mankading (now called 'running out the non-striker'): since 2022, running out the non-striker who leaves their crease before the bowler releases the ball is a LEGITIMATE form of run out under Law 38.3. It is no longer considered unsportsmanlike.",
+        "The batter must ground some part of their body or bat behind the popping crease line to be safe — ON the line is OUT.",
+        "If no run is attempted and the wicket is broken with the batter out of their crease, the batter is still run out."
+      ]
+    },
+    {
+      "number": 42,
+      "title": "Fair and Unfair Play (Ball Tampering and Intimidatory Bowling)",
+      "key_clauses": [
+        "Under Law 41.3 (ball tampering): it is unfair for any player to change the condition of the ball except by polishing it on their clothing, drying it with a towel, or removing mud from it.",
+        "Illegal ball tampering includes using fingernails to gouge or pick the seam, applying saliva mixed with substances, using bottle caps, sandpaper, or any foreign object to alter the ball's surface.",
+        "Penalty for ball tampering: 5 penalty runs to the batting side, replacement of the ball with a ball of similar wear, and the bowler is suspended from bowling for the remainder of the innings.",
+        "Under Law 41.6 (intimidatory bowling): bowling short-pitched deliveries that are directed at the batter's body is considered dangerous if persistent.",
+        "The umpire issues a first warning to the bowler, then a final warning. On the third offense, the bowler is removed from bowling for the remainder of the innings.",
+        "In limited-overs cricket, there is typically a limit of one or two bouncers per over (depending on format and playing conditions).",
+        "Ball tampering can also result in match bans and fines under ICC Code of Conduct, beyond the in-match penalty."
+      ]
+    }
+  ]
+}

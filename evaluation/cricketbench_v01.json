@@ -1,0 +1,162 @@
+[
+  {
+    "id": "LR01",
+    "category": "laws_recall",
+    "difficulty": "basic",
+    "question": "What are the three conditions that must ALL be satisfied for a batter to be given out LBW under Law 36?",
+    "answer_key": "All three conditions must be met: (1) The ball must pitch in line with the stumps or on the off side (never outside leg stump). (2) The ball must strike the batter's pad or body in line with the stumps. (3) The ball must be going on to hit the stumps based on its trajectory.",
+    "key_concepts": ["pitch in line or off side", "impact in line", "hitting stumps", "all three required"]
+  },
+  {
+    "id": "LR02",
+    "category": "laws_recall",
+    "difficulty": "intermediate",
+    "question": "What happens after a No Ball is bowled in a T20 match? Explain the Free Hit rule and what dismissals are still possible.",
+    "answer_key": "After a No Ball in T20, 1 penalty run is added and the next delivery is a Free Hit. On a Free Hit, the batter cannot be bowled, caught, LBW, stumped, or hit wicket. The only dismissals possible are: run out, obstructing the field, hitting the ball twice, and handling the ball. The fielding positions cannot be changed from the No Ball delivery unless the batters swap ends.",
+    "key_concepts": ["free hit next ball", "1 run penalty", "limited dismissal modes", "field cannot change"]
+  },
+  {
+    "id": "LR03",
+    "category": "laws_recall",
+    "difficulty": "intermediate",
+    "question": "In a run out situation where both batters end up at the same end, which batter is given out and why?",
+    "answer_key": "When both batters are at the same end and the wicket at that end is put down, the batter who is NEARER to the broken wicket — meaning the one who has not yet completed the run to that end — is the one who is out. If the batters have crossed, the one who was originally running toward the other end (and has not arrived) is out.",
+    "key_concepts": ["nearer batter is out", "not completed run", "crossing matters"]
+  },
+  {
+    "id": "LR04",
+    "category": "laws_recall",
+    "difficulty": "advanced",
+    "question": "What are the conditions under which Leg Byes are NOT awarded, resulting in the umpire calling Dead Ball?",
+    "answer_key": "Under Law 26, Leg Byes are not awarded when the batter made NO genuine attempt to play a shot at the ball AND made no attempt to avoid being hit by the ball. In this case, the umpire calls Dead Ball, no runs are scored from that delivery (other than any No Ball or Wide penalty), and the batters return to their original ends.",
+    "key_concepts": ["no attempt to play", "no attempt to avoid", "dead ball called", "batters return"]
+  },
+  {
+    "id": "LR05",
+    "category": "laws_recall",
+    "difficulty": "advanced",
+    "question": "Under Law 42/41.3, what is the complete penalty for ball tampering, including in-match and potential additional sanctions?",
+    "answer_key": "The in-match penalty for ball tampering includes: (1) 5 penalty runs awarded to the batting side, (2) the ball is replaced with one of similar wear, (3) the bowler who delivered the ball is immediately suspended from bowling for the remainder of the innings. Additionally, under ICC Code of Conduct, the player(s) involved may face match bans, fines (percentage of match fee), and suspension points.",
+    "key_concepts": ["5 penalty runs", "ball replacement", "bowler suspended", "ICC sanctions possible"]
+  },
+  {
+    "id": "CR01",
+    "category": "conditional_reasoning",
+    "difficulty": "intermediate",
+    "question": "A batter is struck on the pad outside the line of off stump by a ball that pitched on middle stump and would have hit off stump. The batter played a genuine shot. Is the batter out LBW? What if the batter had NOT played a shot?",
+    "answer_key": "If the batter played a shot: NOT OUT. Although the ball pitched in line (condition 1 met) and would hit the stumps (condition 3 met), the impact was outside the line of off stump while a shot was played (condition 2 NOT met). If the batter did NOT play a shot: OUT. The no-shot exception overrides condition 2 — when no shot is offered, impact outside off stump can still be given LBW, and conditions 1 and 3 are satisfied.",
+    "key_concepts": ["outside off with shot = not out", "no shot exception overrides condition 2", "pitch and hitting conditions still apply"]
+  },
+  {
+    "id": "CR02",
+    "category": "conditional_reasoning",
+    "difficulty": "intermediate",
+    "question": "On a Free Hit delivery, the batter hits the ball high and a fielder takes a clean catch at mid-wicket. What is the correct decision?",
+    "answer_key": "NOT OUT. On a Free Hit, the batter cannot be dismissed caught. The ball remains in play (it is not dead), so any runs scored off the shot count. The batter continues batting. The only ways to be dismissed on a Free Hit are run out, obstructing the field, or hitting the ball twice.",
+    "key_concepts": ["caught not valid on free hit", "ball still live", "runs count", "limited dismissal modes"]
+  },
+  {
+    "id": "CR03",
+    "category": "conditional_reasoning",
+    "difficulty": "advanced",
+    "question": "DRS review: Ball-tracking shows the ball pitched outside leg stump, impacted in line with the stumps, and would have hit middle stump. The on-field decision was OUT. What should the third umpire decide?",
+    "answer_key": "The third umpire MUST overturn to NOT OUT. A ball that pitches outside leg stump can NEVER result in an LBW dismissal — this is an absolute exception under Law 36 with no override, regardless of impact point or whether the ball would have hit the stumps. Umpire's Call does not apply to the pitching-outside-leg filter; it is a binary yes/no check.",
+    "key_concepts": ["pitched outside leg = absolute exception", "must overturn", "no Umpire's Call for pitching outside leg", "binary check"]
+  },
+  {
+    "id": "CR04",
+    "category": "conditional_reasoning",
+    "difficulty": "advanced",
+    "question": "A fielder is chasing a ball toward the boundary. Their cap falls off accidentally and the ball strikes the cap, slowing it and preventing a boundary. What is the ruling compared to if the fielder had deliberately thrown their cap at the ball?",
+    "answer_key": "Accidental: No penalty. The Laws specifically require DELIBERATE use of equipment. If the cap fell accidentally and the ball happened to hit it, no 5-run penalty applies. The ball remains in play and runs are scored as normal. Deliberate: 5 penalty runs are awarded to the batting side under Law 28.3, in addition to any runs already completed. The ball becomes dead. The distinction hinges entirely on the umpire's judgment of intent.",
+    "key_concepts": ["deliberate vs accidental", "5 penalty only for deliberate", "umpire judges intent", "ball dead after penalty"]
+  },
+  {
+    "id": "CR05",
+    "category": "conditional_reasoning",
+    "difficulty": "advanced",
+    "question": "DRS review for caught behind: Ultra-Edge shows a clear spike as the ball passes the bat, but Hot Spot shows no mark on the bat edge. How should the third umpire evaluate this conflicting evidence?",
+    "answer_key": "The third umpire should consider that Ultra-Edge (Real-Time Snicko) is generally considered more sensitive and reliable than Hot Spot for detecting faint edges. A spike on Ultra-Edge with no Hot Spot mark could indicate a very fine edge that generated sound but insufficient heat for Hot Spot to detect. The third umpire should look at all available angles and weigh Ultra-Edge as the primary evidence. If the spike clearly correlates with the ball passing the bat (correct timing and synchronization), the on-field decision is likely to stand if OUT, or be overturned if NOT OUT.",
+    "key_concepts": ["Ultra-Edge more sensitive than Hot Spot", "timing correlation matters", "spike synchronization with ball passing bat", "weight of evidence approach"]
+  },
+  {
+    "id": "MS01",
+    "category": "match_situation",
+    "difficulty": "intermediate",
+    "question": "T20 match: Team needs 18 runs off the last over with 4 wickets in hand. The death bowler has been bowling yorkers consistently. What should the fielding captain's bowling strategy and field placement be?",
+    "answer_key": "Bowling strategy: Primarily bowl yorker-length deliveries targeting the blockhole/base of the stumps. Mix in one or two slower ball variations (slower bouncer, off-pace yorker) to disrupt timing. Avoid length or short balls which are easy to score off in the death. Field placement: Long-on and long-off for mishits, deep mid-wicket and deep square leg for cross-bat shots, one fielder at fine leg for edges/flicks. Keep 3-4 on the boundary. Consider a slip or short third man only if the batter is known to edge yorkers. The key is to execute yorkers and avoid giving width or pace to hit.",
+    "key_concepts": ["yorker-heavy strategy", "slower ball variations", "boundary riders", "avoid length balls"]
+  },
+  {
+    "id": "MS02",
+    "category": "match_situation",
+    "difficulty": "intermediate",
+    "question": "Test match, Day 5 morning: Bowling team needs 8 wickets to win, batting team needs 220 runs. Pitch has turn and variable bounce. Should the bowling captain open with pace or spin?",
+    "answer_key": "Open with PACE for the first 30-45 minutes while the ball is relatively new and there is morning moisture/freshness in the pitch. Fast bowlers can exploit any seam movement and the batters may be tentative early. After the initial burst, transition to SPIN as the primary attacking option because: (1) the pitch has turn and variable bounce which favors spinners, (2) spin bowlers can bowl more overs with less fatigue, (3) variable bounce creates uncertainty. Use pace in short, aggressive spells to provide variety and rest the spinners. Set close-in catchers for spin (slip, short leg, silly point).",
+    "key_concepts": ["pace first for new ball and morning conditions", "transition to spin", "pitch conditions favor spin", "close catchers", "rotate bowlers"]
+  },
+  {
+    "id": "MS03",
+    "category": "match_situation",
+    "difficulty": "advanced",
+    "question": "50-over match: Team batting first is 220/8 after 45 overs. The number 9 batter is a capable tail-ender who can bat, partnered with the number 10 who can barely hold a bat. 5 overs remain. What is the optimal batting strategy?",
+    "answer_key": "The capable number 9 should try to farm the strike by: (1) Taking singles on the last ball of each over to retain strike for the next over. (2) When on strike, playing aggressive shots to maximize boundaries — targeting 8-10 runs per over when facing. (3) The number 10 should focus purely on survival when facing — blocking, leaving, occupying the crease. (4) Number 9 should avoid risky singles early in the over that would expose number 10. Target: 260-270. The tail partnership should aim for 40-50 additional runs. If the number 10 is dismissed, number 11 follows the same protect-and-farm strategy.",
+    "key_concepts": ["farm the strike", "singles on last ball", "aggressive when capable batter faces", "protect weaker batter", "survival mode for tail"]
+  },
+  {
+    "id": "MS04",
+    "category": "match_situation",
+    "difficulty": "advanced",
+    "question": "50-over match interrupted by rain. Team B is chasing. At the point of interruption after 35 overs, Team B is 185/4, which is 12 runs ABOVE the DLS par score. 15 overs remain when play resumes. How does being above par affect Team B's strategy?",
+    "answer_key": "Being 12 above DLS par means Team B is in a strong position — if rain ended the match now, they would win. Strategy implications: (1) Team B can bat more conservatively since they have a buffer. (2) They should avoid losing quick wickets, which would erode their DLS advantage rapidly (DLS par drops significantly with wickets in hand lost). (3) The revised target for the remaining 15 overs will reflect their current strong position. (4) They should aim to stay above par at all times — even run-a-ball or slightly below is fine if wickets are preserved. (5) Risk calculation shifts: a wicket is more costly than a dot ball because DLS weighs resources (overs AND wickets) heavily.",
+    "key_concepts": ["above par = winning if rain returns", "protect wickets over run rate", "DLS weighs wickets heavily", "conservative approach viable", "revised target reflects position"]
+  },
+  {
+    "id": "MS05",
+    "category": "match_situation",
+    "difficulty": "advanced",
+    "question": "T20 match: 19th over about to start. Team needs 28 off 12 balls. The bowling captain has their specialist death bowler (economy 7.5 in death) and a spinner (economy 8.2 in death) available. Which bowler should bowl the 19th over and which the 20th?",
+    "answer_key": "Bowl the SPINNER in the 19th over and save the DEATH SPECIALIST for the 20th. Reasoning: (1) The 20th over is statistically the highest-pressure over with the most runs typically scored — you want your best death bowler there. (2) The spinner in the 19th can vary pace and use the element of surprise against batters expecting pace. (3) If the spinner restricts in the 19th, the equation becomes more difficult in the 20th for the batting side. (4) The death specialist's yorkers and slower balls are most effective when the batter MUST score, which is maximized in the final over. Exception: if the spinner has been hit in this match or the batter has a strong record against spin, reverse the order.",
+    "key_concepts": ["save death specialist for 20th over", "spinner can surprise in 19th", "20th over highest pressure", "context-dependent exceptions"]
+  },
+  {
+    "id": "EC01",
+    "category": "edge_case",
+    "difficulty": "advanced",
+    "question": "A fast delivery hits the stumps, but neither bail is dislodged — the ball embeds into the base of the stumps. The ball then ricochets off the stumps and is caught by the wicketkeeper. Is the batter out bowled, caught, or not out?",
+    "answer_key": "The batter is NOT OUT bowled because the wicket has not been 'fairly put down' — putting down the wicket requires at least one bail to be completely removed from the top of the stumps, or a stump to be struck out of the ground. If the bail doesn't fall, the batter is not bowled. The batter is also NOT OUT caught because the ball hit the stumps (not the bat or glove) before reaching the keeper. The batter is NOT OUT. This is a rare but documented edge case — the ball hitting the stumps without dislodging the bail means play continues.",
+    "key_concepts": ["bail must be dislodged for bowled", "wicket not fairly put down", "not caught if ball hit stumps not bat", "play continues"]
+  },
+  {
+    "id": "EC02",
+    "category": "edge_case",
+    "difficulty": "advanced",
+    "question": "A batter hits a six that lands in the crowd and cannot be retrieved. The ball is lost. What happens next? How is the ball replaced?",
+    "answer_key": "The six is scored as normal (6 runs). The umpires must replace the ball with a used ball of similar wear and condition to the one that was lost. The fielding captain and umpires select the replacement ball. The over count and ball count continue as normal. The key point is that the replacement ball should be in comparable condition — you cannot introduce a brand new ball (unless the lost ball was new). This ensures fairness to both sides regarding swing, seam condition, and wear.",
+    "key_concepts": ["six scored normally", "ball replaced with similar condition", "umpires and captain select replacement", "cannot use new ball unless original was new"]
+  },
+  {
+    "id": "EC03",
+    "category": "edge_case",
+    "difficulty": "advanced",
+    "question": "A batter hits the ball, it deflects off the batter's own helmet (worn on head) and goes to the boundary. How many runs are scored?",
+    "answer_key": "The ball hitting the batter's own helmet (being worn) is NOT a penalty situation. The ball remains live and in play. If it reaches the boundary, 4 runs are scored as normal batting runs. The helmet penalty (5 runs) only applies when the ball strikes a fielding team's helmet that has been placed on the ground. A batter's own worn equipment is part of their person, so any deflection off it is treated the same as a deflection off the batter's body — runs can be scored.",
+    "key_concepts": ["worn helmet is part of batter's person", "ball remains live", "penalty only for fielding team ground helmet", "4 runs if boundary"]
+  },
+  {
+    "id": "EC04",
+    "category": "edge_case",
+    "difficulty": "advanced",
+    "question": "A bowler is injured mid-over after delivering 3 balls. Can another bowler complete the over? Can the injured bowler return to bowl later in the innings? What are the restrictions?",
+    "answer_key": "Yes, another bowler must complete the remaining 3 balls of the over, but it must be a bowler who did NOT bowl the previous over and who is NOT scheduled to bowl the next over (to maintain the rule that no bowler bowls two consecutive overs). The injured bowler CAN return to bowl later in the innings once recovered, but they cannot complete the over they were injured in. When they return, they must bowl a complete new over (they cannot bowl the remaining balls of the interrupted over). The replacement bowler's balls count as part of THEIR bowling figures, not the injured bowler's.",
+    "key_concepts": ["another bowler completes over", "not from previous or next over bowler", "injured bowler can return later", "new over when returning", "replacement gets bowling figures"]
+  },
+  {
+    "id": "EC05",
+    "category": "edge_case",
+    "difficulty": "advanced",
+    "question": "T20 Super Over: Both teams score exactly 12 runs in their Super Over innings. Team A lost 1 wicket, Team B lost 0. Who wins the match?",
+    "answer_key": "Under current ICC rules (post-2019 World Cup final rule change), if the Super Over is tied, another Super Over is played. The process repeats until there is a winner. The number of wickets lost in the Super Over does NOT determine the winner — only runs scored matter. Before 2019, boundary count or other tiebreakers were used, but these have been replaced with repeated Super Overs. In bilateral series, some competitions may use different tiebreakers (like boundary count or higher league standing), but the standard ICC rule is to play another Super Over.",
+    "key_concepts": ["another Super Over is played", "wickets lost don't determine winner", "only runs matter", "repeats until winner", "post-2019 rule change"]
+  }
+]

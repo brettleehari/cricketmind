@@ -1,0 +1,13 @@
+anthropic>=0.25.0
+transformers==4.40.0
+peft==0.10.0
+trl==0.8.6
+bitsandbytes==0.43.1
+accelerate==0.29.3
+datasets==2.19.0
+huggingface_hub>=0.22.0
+einops
+torch>=2.1.0
+sentencepiece
+protobuf
+python-dotenv

@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+*.gguf
+cricketmind-lora/
+cricketmind-merged/
+.DS_Store

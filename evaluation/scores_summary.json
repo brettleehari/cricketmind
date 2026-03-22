@@ -1,0 +1,16 @@
+{
+  "cricketmind": {
+    "laws_recall": 60.0,
+    "conditional_reasoning": 70.0,
+    "match_situation": 80.0,
+    "edge_case": 50.0,
+    "overall": 67.5
+  },
+  "baseline_nemotron": {
+    "laws_recall": 40,
+    "conditional_reasoning": 25,
+    "match_situation": 30,
+    "edge_case": 20,
+    "overall": 30.2
+  }
+}

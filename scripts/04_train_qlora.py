@@ -70,12 +70,18 @@ def main():
     # Load model in bfloat16 — skip 4-bit quantization to avoid
     # set_submodule incompatibility with NemotronForCausalLM.
     # 80GB A100 has plenty of VRAM for full bf16.
-    model = AutoModelForCausalLM.from_pretrained(
-        PRIMARY_MODEL,
-        torch_dtype=torch.bfloat16,
+    # Use dtype for transformers>=5.x, torch_dtype for older versions.
+    import transformers
+    load_kwargs = dict(
+        pretrained_model_name_or_path=PRIMARY_MODEL,
         device_map="auto",
         trust_remote_code=True,
     )
+    if int(transformers.__version__.split(".")[0]) >= 5:
+        load_kwargs["dtype"] = torch.bfloat16
+    else:
+        load_kwargs["torch_dtype"] = torch.bfloat16
+    model = AutoModelForCausalLM.from_pretrained(**load_kwargs)
     model.config.use_cache = False
     print("Model loaded successfully")
 

@@ -36,12 +36,17 @@ def merge_model():
     base_model_name = detect_base_model()
 
     print(f"Loading base model: {base_model_name} (CPU, bfloat16)...")
-    base_model = AutoModelForCausalLM.from_pretrained(
-        base_model_name,
-        torch_dtype=torch.bfloat16,
+    import transformers
+    load_kwargs = dict(
+        pretrained_model_name_or_path=base_model_name,
         device_map="cpu",
         trust_remote_code=True,
     )
+    if int(transformers.__version__.split(".")[0]) >= 5:
+        load_kwargs["dtype"] = torch.bfloat16
+    else:
+        load_kwargs["torch_dtype"] = torch.bfloat16
+    base_model = AutoModelForCausalLM.from_pretrained(**load_kwargs)
     tokenizer = AutoTokenizer.from_pretrained(base_model_name, trust_remote_code=True)
 
     print(f"Loading LoRA adapters from {LORA_DIR}...")

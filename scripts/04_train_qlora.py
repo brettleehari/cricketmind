@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
-"""QLoRA fine-tuning script for RunPod A100. DO NOT RUN LOCALLY — requires GPU."""
+"""
+QLoRA fine-tuning script for RunPod A100. DO NOT RUN LOCALLY — requires GPU.
+
+Tested with: transformers==5.3.0, trl==0.29.1, peft==0.10.0, accelerate==1.13.0
+"""
 
 import json
 import sys
 
 import torch
+import transformers
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model
-from transformers import (
-    AutoModelForCausalLM,
-    AutoTokenizer,
-    TrainingArguments,
-)
-from trl import SFTTrainer
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from trl import SFTConfig, SFTTrainer
 
 PRIMARY_MODEL = "nvidia/Nemotron-Mini-4B-Instruct"
 TRAIN_PATH = "data/train.json"
@@ -43,6 +44,7 @@ def main():
     print("=" * 60)
     print("CricketMind QLoRA Fine-Tuning")
     print("=" * 60)
+    print(f"transformers={transformers.__version__}")
 
     if not torch.cuda.is_available():
         print("ERROR: CUDA not available. This script requires a GPU (RunPod A100).")
@@ -70,14 +72,13 @@ def main():
     # Load model in bfloat16 — skip 4-bit quantization to avoid
     # set_submodule incompatibility with NemotronForCausalLM.
     # 80GB A100 has plenty of VRAM for full bf16.
-    # Use dtype for transformers>=5.x, torch_dtype for older versions.
-    import transformers
     load_kwargs = dict(
         pretrained_model_name_or_path=PRIMARY_MODEL,
         device_map="auto",
         trust_remote_code=True,
         use_safetensors=True,
     )
+    # transformers 5.x renamed torch_dtype to dtype
     if int(transformers.__version__.split(".")[0]) >= 5:
         load_kwargs["dtype"] = torch.bfloat16
     else:
@@ -98,8 +99,11 @@ def main():
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
 
-    # Training arguments — bf16 to match model dtype
-    training_args = TrainingArguments(
+    # SFTConfig replaces TrainingArguments for trl>=0.20
+    # dataset_text_field and max_seq_length moved into SFTConfig
+    # warmup_ratio renamed to warmup_steps (accepts float <1 as ratio)
+    # tokenizer renamed to processing_class
+    sft_config = SFTConfig(
         output_dir=OUTPUT_DIR,
         num_train_epochs=3,
         per_device_train_batch_size=4,
@@ -107,7 +111,7 @@ def main():
         gradient_accumulation_steps=4,
         learning_rate=2e-4,
         weight_decay=0.01,
-        warmup_ratio=0.03,
+        warmup_steps=0.03,
         lr_scheduler_type="cosine",
         logging_steps=10,
         eval_strategy="steps",
@@ -119,17 +123,16 @@ def main():
         bf16=True,
         report_to="none",
         max_grad_norm=0.3,
-    )
-
-    # Trainer
-    trainer = SFTTrainer(
-        model=model,
-        args=training_args,
-        train_dataset=train_ds,
-        eval_dataset=val_ds,
         dataset_text_field="text",
         max_seq_length=1024,
-        tokenizer=tokenizer,
+    )
+
+    trainer = SFTTrainer(
+        model=model,
+        args=sft_config,
+        train_dataset=train_ds,
+        eval_dataset=val_ds,
+        processing_class=tokenizer,
     )
 
     print("\nStarting training...")

@@ -124,7 +124,7 @@ def main():
         report_to="none",
         max_grad_norm=0.3,
         dataset_text_field="text",
-        max_seq_length=1024,
+        max_length=1024,
     )
 
     trainer = SFTTrainer(

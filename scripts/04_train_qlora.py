@@ -129,7 +129,7 @@ def main():
         eval_dataset=val_ds,
         dataset_text_field="text",
         max_seq_length=1024,
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
     )
 
     print("\nStarting training...")

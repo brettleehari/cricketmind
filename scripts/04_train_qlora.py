@@ -2,43 +2,37 @@
 """QLoRA fine-tuning script for RunPod A100. DO NOT RUN LOCALLY — requires GPU."""
 
 import json
-import os
 import sys
 
 import torch
 from datasets import Dataset
-from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
+from peft import LoraConfig, get_peft_model
 from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
-    BitsAndBytesConfig,
     TrainingArguments,
 )
 from trl import SFTTrainer
 
-# Model selection with fallback
 PRIMARY_MODEL = "nvidia/Nemotron-Mini-4B-Instruct"
-FALLBACK_MODEL = "meta-llama/Llama-3.2-3B-Instruct"
-
 TRAIN_PATH = "data/train.json"
 VAL_PATH = "data/val.json"
 OUTPUT_DIR = "./cricketmind-lora"
+LORA_R = 16
+LORA_ALPHA = 32
+LORA_DROPOUT = 0.05
+TARGET_MODULES = ["q_proj", "v_proj"]
 
 
 def format_example(example):
-    """Format training example into chat template."""
-    return f"""### Instruction:
-{example['instruction']}
-
-### Input:
-{example['input']}
-
-### Response:
-{example['output']}"""
+    return (
+        f"### Instruction:\n{example['instruction']}\n\n"
+        f"### Input:\n{example['input']}\n\n"
+        f"### Response:\n{example['output']}"
+    )
 
 
 def load_dataset_from_json(path):
-    """Load dataset from JSON file."""
     with open(path) as f:
         data = json.load(f)
     texts = [format_example(ex) for ex in data]
@@ -55,66 +49,49 @@ def main():
         sys.exit(1)
 
     print(f"GPU: {torch.cuda.get_device_name(0)}")
-    print(f"VRAM: {torch.cuda.get_device_properties(0).total_mem / 1e9:.1f} GB")
-
-    # 4-bit quantization config
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16,
-        bnb_4bit_use_double_quant=True,
-    )
-
-    # Try primary model, fallback if needed
-    model_name = PRIMARY_MODEL
-    try:
-        print(f"\nLoading model: {model_name}")
-        tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
-        model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            quantization_config=bnb_config,
-            device_map="auto",
-            trust_remote_code=True,
-        )
-    except Exception as e:
-        print(f"Failed to load {model_name}: {e}")
-        model_name = FALLBACK_MODEL
-        print(f"Falling back to: {model_name}")
-        tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
-        model = AutoModelForCausalLM.from_pretrained(
-            model_name,
-            quantization_config=bnb_config,
-            device_map="auto",
-            trust_remote_code=True,
-        )
-
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-
-    # Prepare model for QLoRA
-    model = prepare_model_for_kbit_training(model)
-
-    # LoRA config
-    lora_config = LoraConfig(
-        r=16,
-        lora_alpha=32,
-        target_modules=["q_proj", "v_proj"],
-        lora_dropout=0.05,
-        bias="none",
-        task_type="CAUSAL_LM",
-    )
-
-    model = get_peft_model(model, lora_config)
-    model.print_trainable_parameters()
+    print(f"VRAM: {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
 
     # Load datasets
     print("\nLoading datasets...")
-    train_dataset = load_dataset_from_json(TRAIN_PATH)
-    val_dataset = load_dataset_from_json(VAL_PATH)
-    print(f"Train: {len(train_dataset)} examples")
-    print(f"Val: {len(val_dataset)} examples")
+    train_ds = load_dataset_from_json(TRAIN_PATH)
+    val_ds = load_dataset_from_json(VAL_PATH)
+    print(f"Train: {len(train_ds)} | Val: {len(val_ds)}")
 
-    # Training arguments
+    # Load tokenizer
+    print(f"\nLoading model: {PRIMARY_MODEL}")
+    tokenizer = AutoTokenizer.from_pretrained(
+        PRIMARY_MODEL,
+        trust_remote_code=True,
+    )
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.padding_side = "right"
+
+    # Load model in bfloat16 — skip 4-bit quantization to avoid
+    # set_submodule incompatibility with NemotronForCausalLM.
+    # 80GB A100 has plenty of VRAM for full bf16.
+    model = AutoModelForCausalLM.from_pretrained(
+        PRIMARY_MODEL,
+        torch_dtype=torch.bfloat16,
+        device_map="auto",
+        trust_remote_code=True,
+    )
+    model.config.use_cache = False
+    print("Model loaded successfully")
+
+    # Apply LoRA
+    lora_config = LoraConfig(
+        r=LORA_R,
+        lora_alpha=LORA_ALPHA,
+        target_modules=TARGET_MODULES,
+        lora_dropout=LORA_DROPOUT,
+        bias="none",
+        task_type="CAUSAL_LM",
+    )
+    model = get_peft_model(model, lora_config)
+    model.print_trainable_parameters()
+
+    # Training arguments — bf16 to match model dtype
     training_args = TrainingArguments(
         output_dir=OUTPUT_DIR,
         num_train_epochs=3,
@@ -131,9 +108,9 @@ def main():
         save_strategy="steps",
         save_steps=50,
         save_total_limit=3,
-        fp16=True,
+        load_best_model_at_end=True,
+        bf16=True,
         report_to="none",
-        optim="paged_adamw_8bit",
         max_grad_norm=0.3,
     )
 
@@ -141,10 +118,11 @@ def main():
     trainer = SFTTrainer(
         model=model,
         args=training_args,
-        train_dataset=train_dataset,
-        eval_dataset=val_dataset,
+        train_dataset=train_ds,
+        eval_dataset=val_ds,
+        dataset_text_field="text",
+        max_seq_length=1024,
         tokenizer=tokenizer,
-        max_seq_length=2048,
     )
 
     print("\nStarting training...")
@@ -155,7 +133,8 @@ def main():
     tokenizer.save_pretrained(OUTPUT_DIR)
 
     print("\n" + "=" * 60)
-    print("Training complete! Next: python scripts/05_merge_and_export.py")
+    print(f"DONE — LoRA adapters saved to {OUTPUT_DIR}")
+    print("Next: python scripts/05_merge_and_export.py")
     print("=" * 60)
 
 

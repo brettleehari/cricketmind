@@ -35,10 +35,10 @@ def merge_model():
     """Merge LoRA adapters with base model on CPU."""
     base_model_name = detect_base_model()
 
-    print(f"Loading base model: {base_model_name} (CPU, float16)...")
+    print(f"Loading base model: {base_model_name} (CPU, bfloat16)...")
     base_model = AutoModelForCausalLM.from_pretrained(
         base_model_name,
-        torch_dtype=torch.float16,
+        torch_dtype=torch.bfloat16,
         device_map="cpu",
         trust_remote_code=True,
     )

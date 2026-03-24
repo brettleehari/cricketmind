@@ -76,6 +76,7 @@ def main():
         pretrained_model_name_or_path=PRIMARY_MODEL,
         device_map="auto",
         trust_remote_code=True,
+        use_safetensors=True,
     )
     if int(transformers.__version__.split(".")[0]) >= 5:
         load_kwargs["dtype"] = torch.bfloat16

@@ -41,6 +41,7 @@ def merge_model():
         pretrained_model_name_or_path=base_model_name,
         device_map="cpu",
         trust_remote_code=True,
+        use_safetensors=True,
     )
     if int(transformers.__version__.split(".")[0]) >= 5:
         load_kwargs["dtype"] = torch.bfloat16

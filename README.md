@@ -29,7 +29,6 @@ Evaluated on **CricketBench v0.1** — a custom benchmark with 20 questions acro
 
 ```
 cricketmind/
- article/          # 6-part article series
  data/             # Training data and laws corpus
  evaluation/       # CricketBench benchmark and scoring
  model/            # Model configs and training scripts
@@ -38,17 +37,7 @@ cricketmind/
  dataset_card.md   # Dataset documentation
 ```
 
-## Article Series: Why Every PM Should Fine-Tune a Model
 
-I wrote a 6-part series documenting the full journey, aimed at AI product managers:
-
-1. **[Overview](article/series_00_overview.md)** — The CricketMind thesis
-2. **[Why Every PM Should Fine-Tune](article/series_01_why_every_pm_should_finetune.md)** — The gap between API users and model builders
-3. **[Why Nemotron, Not LLaMA](article/series_02_why_nemotron_not_llama.md)** — Model selection as product decision
-4. **[The Dataset Is the Product](article/series_03_dataset_is_the_product.md)** — Data curation strategy
-5. **[Fine-Tuning: What Breaks](article/series_04_finetuning_what_breaks.md)** — Real pitfalls and debugging
-6. **[Evaluation Is Strategy](article/series_05_evaluation_is_strategy.md)** — Building CricketBench
-7. **[From Weights to Product](article/series_06_from_weights_to_product.md)** — Deployment and productisation
 
 ## Key Techniques
 
@@ -67,7 +56,7 @@ python scripts/generate_qa_pairs.py
 python evaluation/run_benchmark.py
 ```
 
-Fine-tuning requires GPU access (A100 recommended). See CLAUDE.MD for the full build spec.
+Fine-tuning requires GPU access (A100 recommended). S
 
 ## Author
 
